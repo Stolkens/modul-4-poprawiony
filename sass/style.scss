@@ -164,6 +164,19 @@ img {
 }
 .image {
 	position: relative;
+	text-align: center;
+	letter-spacing: 0;
+	background: $main-color;
+	height: 370px;
+	padding: 0;
+	margin: 10px;
+
+	h5 {
+		margin: 10px 0 0 0;
+	}
+	p {
+		margin: 0;
+	}
 }
 .image-overlay {
 	position: absolute;
@@ -172,7 +185,7 @@ img {
 	transform: translateX(-50%);
 	background-color: #777777;
 	height: 300px;
-	width: 92%;
+	width: 100%;
 	object-fit: cover;
 	opacity: 0;
 	h4 {
@@ -190,18 +203,7 @@ img {
 .image-overlay:hover {
 	opacity: 0.5;
 }
-.description {
-	text-align: center;
-	letter-spacing: 0;
-	background: $main-color;
-	padding: 20px;
-	h5 {
-		margin: 0;
-	}
-	p {
-		margin: 0;
-	}
-}
+
 /* Footer */
 .footer {
 	.fa-copyright {
